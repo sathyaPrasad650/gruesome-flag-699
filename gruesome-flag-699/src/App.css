@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+/*  */
+/*  */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.FontLazyGirl {
+  font-family: "Eczar", serif;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Kanit", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Overpass", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Yrsa", serif;
+  font-weight: 300;
+  font-size: 50px;
+}
+
+.box {
+  /* border: 2px solid red; */
+  cursor: pointer;
+  height: 425px;
+  width: 280px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px,
+    rgba(0, 0, 0, 0.1) 0px 7px 13px -3px, rgba(0, 0, 0, 0.1) 0px -3px 0px inset;
+}
+
+.makeUp {
+  padding-right: 10px;
+  cursor: pointer;
+}
+.contain {
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0010px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  /* border: 2px black solid; */
+  top: 200px;
+  right: 0px;
+  max-height: 0px;
+  transition: max-height 1s;
+  z-index: 10;
+}
+.contain-height {
+  max-height: 300px;
+}
+
+.topLine {
+  font-weight: 600;
+}
